@@ -3,7 +3,32 @@ const APP = {
     // add EventListener
     APP.addEvents();
     APP.fetchProjects();
+    // APP.setUp();
   },
+
+  setUp() {
+      const options  = {
+        rootMargin: "0px 0px 0px 0px"
+      }
+
+      function callback(entries, observer) {
+        entries.forEach((entry) => {
+          if(entry.isIntersecting) {
+            entry.target.classList.add("reveal");
+            console.log(entry.target);
+            observer.unobserve(entry.target);
+          }
+        })
+      }
+
+      let observer = new IntersectionObserver(callback, options);
+      let arr = [...document.querySelectorAll("h2"), ...document.querySelectorAll("p"), ...document.querySelectorAll("button")];
+      console.log(arr);
+      arr.forEach((element) => {
+        observer.observe(element);
+      })
+  }
+  ,
 
   addEvents() {
     document.querySelector(".hamburger-menu").addEventListener("click", () => {
@@ -88,6 +113,7 @@ const APP = {
       df.appendChild(a);
     });
     document.querySelector(".projects").appendChild(df);
+    APP.setUp();
   },
 
   debounce(func, delay) {

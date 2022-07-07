@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhishek Rana</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=MonteCarlo&family=Noto+Sans:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicons/favicon-16x16.png" />
+    <link rel="manifest" href="./images/favicons/site.webmanifest" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper row">
+        <div class="logo">
+          <a href="#">AR</a>
+        </div>
+        <div>
+          <div class="hamburger-menu"><span class="hamburger"></span></div>
+          <nav class="visibility desktop-nav nav">
+            <ul>
+              <li><a href="#projects">Work</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li class="selected"><a href="./Abhishek_resume.pdf" target="_blank">Resume</a></li>
+              <li>
+                <a href="#language"
+                  ><span><img src="./images/flag.svg" alt="" /></span
+                  ><span>EN</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- this div container is for overlay -->
+      <div class="container"></div>
+      <section class="intro center">
+        <div class="wrapper ">
+            <div class="content">
+                <p>Hi, my name is</p>
+                <h2>Abhishek.</h2>
+                <h2>I build web applications.</h2>
+                <p>I enjoy investing myself inside challenging projects in order to give the best digital experience while i keep improving as a developer. <a href="mailto:abhishek.rana.7174@gmail.com">Contact me</a> if you want to talk about opportunities.😇</p>
+                <button><a href="#projects">Check out my projects!</a></button>
+            </div>
+            
+        </div>
+        
+      </section>
+      <section id="projects"> 
+        <div class="wrapper">
+            <h2 class="pjs">Some things i have built</h2>
+            <div class="projects">
+                <!-- projects div will come here using javascript -->
+            </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
+            <div>
+                <h2>Get in touch</h2>
+                <p>My inbox is always open, no matter if i'm looking for new opportunities or not, if you have any questions, you want to chat or simply say hello, i will do my best to answer as soon as possible.</p>
+                <a id="contact" href="mailto:abhishek.rana.7174@gmail.com"><button>Say Hello!</button></a>
+                <p>built by Abhishek</p>
+            </div>
+        </div>
+    </footer> 
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>

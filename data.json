@@ -1,22 +1,22 @@
 [
     {
-        "href": "https://def-life.github.io/todolist/",
-        "heading": "todolist app", 
-        "content": "lorem ipsum somethign skdf s;ldf ajsk;g as jkasldf asdjkg;ashdg",
+        "href": "https://def-life.github.io/sorting-visualiser/",
+        "heading": "sorting visulaiser", 
+        "content": "demostrates merge,quick and heap sort working",
         "tech": "javascript, html5, css3"
         
     },
     {
         "href": "https://def-life.github.io/color-picker-/",
-        "heading": "some heading", 
-        "content": "lorem ipsum somethign skdf s;ldf ajsk;g as jkasldf asdjkg;ashdg",
+        "heading": "color extrating tool", 
+        "content": "A image is given and from that image you can extract the colors",
         "tech": "javascript, html5, css3"
         
     },
     {
         "href": "https://def-life.github.io/park_vehicle/",
-        "heading": "some heading", 
-        "content": "lorem ipsum somethign skdf s;ldf ajsk;g as jkasldf asdjkg;ashdg",
+        "heading": "Park Vehicle", 
+        "content": "the project demonstrate the use of drag and drop api",
         "tech": "javascript, html5, css3"
         
     }

@@ -1,14 +1,14 @@
 [
     {
         "href": "https://def-life.github.io/sorting-visualiser/",
-        "heading": "sorting visulaiser", 
+        "heading": "sorting visualiser", 
         "content": "demostrates merge,quick and heap sort working",
         "tech": "javascript, html5, css3, react"
         
     },
     {
         "href": "https://def-life.github.io/color-picker-/",
-        "heading": "color extrating tool", 
+        "heading": "color extracting tool", 
         "content": "A image is given and from that image you can extract the colors",
         "tech": "javascript, html5, css3"
         
